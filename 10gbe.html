@@ -1,0 +1,849 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+<meta name="format-detection" content="address=no">
+<meta charset="utf-8">
+<link rel="shortcut icon" href="https://www.qnap.com/i/images/favicon.ico" type="image/x-icon">
+<title> Maximize Your Speed, Minimize your Cost - 10GbE for Everyone! | QNAP </title>
+<style>
+
+  @import url('https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700');
+	
+	/* Button CSS */
+  .btn-grad {transition: all .3s ease !important; }
+	.btn, .btn-dark, .info-tb img { transition: all .3s ease !important; }
+	.btn:hover { transform:scale(1.07) !important; background-color:#e2beda !important;}
+  .btn-dark:hover { transform:scale(1.07) !important; color: #fff!important; background-color:#5a7aba !important; }
+	.btn:hover a { color:#fff !important; }
+  .btn-grad:hover {transform:scale(1.07) !important; background-color:#ffd830 !important;}
+  
+  .border_mob a{color:#fff!important;text-decoration:none;}
+  a.pt-img img {transition:all .3s ease}
+  a.pt-img:hover img {transform:scale(1.07); }  
+	
+  /* General Styles */
+  @media screen and (max-width: 800px){
+  	table {max-width:100%; width:100%;}
+  	.hhh-cell, .shd-row, .shd-cell, .sep-row { display:none !important; }
+  	.gap-cell { width:50px !important; }
+  	.qnap-logo img { margin:auto !important; }
+  	.art-img img { max-width: 100% !important; height:auto !important; border:0 !important; display:block !important; padding:0 !important; }
+  	.art-img2 img { max-width: 100% !important; height:auto !important; border:0 !important; display:none !important; padding:0 !important; }
+  	.hh-table { width:100% !important; max-width:100% !important; margin-top:0 !important; margin-bottom:20px !important;}
+  	.hh-table-jt,.hh-table-kl { text-align: center !important }
+  	
+  	.tit-01 { text-align: left!important; font-size: 38px !important; }
+  	.tit-01 br, .tit-02 br, .tit-03 br { display:none !important; }
+  	
+  	.tit_width { padding-left:20px; padding-right:20px; }
+  	.fl_clear img, .fl_clear table { float:none !important; }
+  	.fl_clear table { margin:15px auto !important; width:100% !important;}
+  	.tab_model { width: 98% !important; margin: 1% 1% 2% !important;}
+  	.map-img { width: 98% !important; margin: 0 1% 10% !important;}
+  	.tab_name { margin-left: 0px !important; margin-right: 0px !important; }
+  	.applications { padding-bottom:20px !important; }
+  	.dealer { width: 330px !important }
+  	.btn { margin-bottom:30px !important; }
+  	.btn-s { margin-bottom:40px !important; }
+  	.btn-s-mg { margin-bottom:0 !important; }
+  	
+  	.hh-im img { display: none !important;}
+  	.hh-im-tt { width:100% !important; max-width:100% !important; padding: 0 5% !important;}
+  	
+  	.hr-be-1 { width:24% !important; } 
+  	.hr-af-1 { width:24% !important; }
+  	.hr-tt-1 { width:51% !important; }
+  	.hr-be-2 { width:15% !important; } 
+  	.hr-af-2 { width:15% !important; }
+  	.hr-tt-2 { width:69% !important; }
+  	
+  	.tab_ico { width: 100% !important; margin: 0px auto 10px !important; float: none !important; }
+  	.tab_pro { width: 100% !important; margin: 0 auto 20px !important; float: none !important; }
+      .tab_ico tr td, .tab_pro tr td { height: auto !important; }
+      .tab_ico img { width: auto!important; height: auto!important; margin:0 auto !important; }
+  	.tab_pro img {height: auto!important; margin:0 auto 30px !important; }
+  	.tab_pro span { text-align:center !important; display: block !important; }
+      
+     
+     
+  }
+  @media screen and (max-width:667px){
+  	.gap-cell { width:40px !important; }
+  	.tit-01 { font-size: 30px !important; }	
+  	.tit-02 { font-size:24px !important; }
+  	.tit-03 { font-size:18px !important; }
+  	.bn { padding:0px 0px 60px !important; border-bottom: 1px solid #ccc;  }
+  	.bn a img { width:330px !important; height:auto !important; }
+  	.btn { width: 180px !important; margin-bottom:20px !important; }
+  	.btn-b { width: 180px !important; }
+  	.btn-s { margin-bottom:30px !important; }
+  	.tab_name { margin: 10px 0px !important; }
+  	.hr-tt-1 td, .hr-tt-2 td { font-size: 23px !important; }
+  	.hr-be-1 { width:20% !important; } 
+  	.hr-af-1 { width:20% !important; }
+  	.hr-tt-1 { width:59% !important; }
+  	.hr-be-2 { width:15% !important; } 
+  	.hr-af-2 { width:15% !important; }
+  	.hr-tt-2 { width:69% !important; }
+    
+      }
+      
+  @media screen and (max-width: 480px){
+  	.gap-cell { width:30px !important; }
+  	.qnap-logo { padding-top:35px !important; }
+  	.qnap-logo img { width:145px !important; height:auto !important; }
+  	.tit-01 { font-size:28px !important; }
+  	.tit-02 { font-size:20px !important; }
+  	.tit-03 { font-size:25px !important; }
+  	.tit_width { padding-left:12x; padding-right:12px; }
+  	.art-img img { max-width:100% !important; }
+  	.dealer { width:95% !important }
+  }
+  @media screen and (max-width: 320px){
+  	.tit-01 { font-size:26px !important; }
+  	.hr-tt-1 td, .hr-tt-2 td { font-size:25px !important; }
+  	.hr-be-1 { width:12% !important; } 
+  	.hr-af-1 { width:12% !important; }
+  	.hr-tt-1 { width:75% !important; }
+  	.hr-be-2 { width:10% !important; } 
+  	.hr-af-2 { width:10% !important; }
+  	.hr-tt-2 { width:79% !important; }
+  }
+  .btn-b1 {transition:all .3s ease}
+  .btn-b1 {width: 180px !important; }
+  .btn-s1 {transition:all .3s ease}
+  .btn-s1 {margin-bottom:50px !important; }
+  .tab_ico {width: 100% !important; margin: 0px auto 10px !important; float: none !important; }
+  .tab_ico1 {width: 100% !important; margin: 0px auto 10px !important; float: none !important; }
+  .tab_ico1 {width: 100% !important; margin: 0px auto 10px !important; float: none !important; }
+  .btn1 {transition:all .3s ease}
+  .btn1 {margin-bottom:30px !important; }
+  .btn1 {width: 180px !important; margin-bottom:20px !important; }
+  .btn-s2 {transition:all .3s ease}
+  </style>
+</head>
+
+<body style="padding:0; margin:0;">
+<div style="background: #f5f5f5;">
+  <center>
+    <table width="800" border="0" cellpadding="0" cellspacing="0" class="hh-table">
+      <tr>
+        <td align="center" valign="top" bgcolor="#fff">
+          <table width="100%" border="0" cellpadding="0" cellspacing="0">
+          
+          <!-- Image Banner -->
+          <tr>
+            <td class="art-img" align="center" valign="top">
+            <a href="https://www.qnap.com/en-us" target="_blank">
+            <img src="https://images.benchmarkemail.com/client136840/image17182583.png" alt="" width="800" height="40" style="display:block;" title="" border="0"></a>
+            <a href="https://www.qnap.com/en-us/solution/high-speed-connectivity" target="_blank">
+            <img src="https://images.benchmarkemail.com/client136840/image17182585.png" alt="" width="800" height="360" style="display:block;" title="" border="0"></a></td>
+          </tr>
+ 
+          <!-- Why 10GbE Section -->
+          
+          <!-- Title -->
+          <tr style="background:#2A437A; background-image:linear-gradient(#2A437A,#2A437A);">
+            <td align="left" valign="top" style="font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC',  'Microsoft JhengHei', sans-serif;color: #ffffff; font-size: 16px; font-weight: bold; letter-spacing: -0.015em; text-align: center;">
+              <table border="0" align="center" cellpadding="0" cellspacing="0" style="padding: 0px 50px 0;">
+              <tbody>
+                <tr class="tab_ico1">
+                  <td style="width: 200px; padding:40px 0 0;">
+                    <hr style="border: none; border-top: 1px solid white; width: 100%; margin:0!important;">
+                  </td>
+                  <td style="font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC',  'Microsoft JhengHei', sans-serif;color: #ffffff; font-size: 16px; font-weight: bold; padding:0px 20px;">
+                    <p style="padding-top:40px; text-align:center; font-size:36px; font-weight: bold; margin:0!important;">
+                      Why 10GbE?
+                    </p>
+                  </td>
+                  <td style="width: 200px; padding: 40px 0px 0;">
+                    <hr style="border: none; border-top: 1px solid white; width: 100%; margin:0!important;">
+                  </td>
+                </tr>
+              </tbody>
+              </table>
+            </td>
+          </tr>
+          <!-- Column -->
+          <tr style="background:#2A437A; background-image:linear-gradient(#2A437A,#2A437A);">
+            <td align="left" valign="top" style="padding: 0px 50px; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC',  'Microsoft JhengHei', sans-serif;color: #ffffff; font-size: 16px; font-weight: bold; letter-spacing: -0.015em;text-align: center;">
+              <table border="0" align="center" cellpadding="0" cellspacing="0" style="padding-bottom: 20px;">
+              <tbody>
+                <tr class="tab_ico1">
+                  <td align="center" style="width:33.33%; font-weight: bold; text-align: center; color:#fff; font-size:20px; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; letter-spacing: -0.015em; margin:0!important;">
+                    <img src="https://images.benchmarkemail.com/client136840/image17189238.png" alt="" width="100" height="100" title="" border="0">
+                    <p style="text-align:center; margin:0!important; padding-bottom:20px;">
+                      10x Faster<br>Than Gigabit <br><span style ="font-weight: normal; font-size: 14px; color: #fff;">Transfer large files in seconds</span>
+                    </p>
+                  </td>
+                  
+                  <td align="center" style="width:33.33%;  font-weight: bold; text-align: center; color:#fff; font-size:20px; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; letter-spacing: -0.015em; margin:0!important;">
+                    <img src="https://images.benchmarkemail.com/client136840/image17189239.png" alt="" width="100" height="100" title="">
+                    <p style="text-align:center;  margin:0!important;  padding-bottom:20px;">
+                      Simple, Plug<br>&#38; Play <br><span style ="font-weight: normal; font-size: 14px; color: #fff;">No IT expertise needed </span>
+                    </p>
+                  </td>
+                  
+                  <td align="center" style="width:33.33%;  font-weight: bold; text-align: center; color:#fff; font-size:20px; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; letter-spacing: -0.015em; margin:0!important;">
+                    <img src="https://images.benchmarkemail.com/client136840/image17189240.png" alt="" width="100" height="100" title="">
+                    <p style="text-align:center;  margin:0!important; padding-bottom:20px;">
+                      Future-Proof<br>Your Setup <br><span style ="font-weight: normal; font-size: 14px; color: #fff;">Works with NAS, PCs, &#38; Workstations </span>
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+              </table>
+            </td>
+          </tr>
+          
+          <!-- End of Why 10GbE Section -->
+          
+          <!-- Section 1 -->  
+          <tr style="background:#000; background-image:linear-gradient(#2A437A,#cdb3d4);">
+            <td align="left" valign="top" style="padding-top:40px;padding-bottom:40px;">
+              <table border="0" align="center" cellpadding="0" cellspacing="0">
+                <tbody>
+                  <!-- Title -->
+                  <tr class="tab_ico1">
+                    <td style="padding: 40px 70 10px; text-align: center; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; font-size:24px; line-height:1.4em; font-weight:bold; color:#ffffff;letter-spacing: -0.015em; padding-top: 20px;">
+                      Meet Your Affordable 10GbE Solution
+                    </td>
+                  </tr>
+                  
+                  <tr class="tab_ico1">
+                    <td align="center" valign="top"style="font-weight:bold; font-size:20px; line-height:1.6em; color:#1d6add; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; padding: 15px 10px 10px;">
+                      <span style="background:#00204f; color: #fff; display: inline-block; border-radius: 25px; font-size: 14px; line-height: 1em; padding: 8px 12px;">
+                      The Smart 5-Port 10GbE Switch</span>
+                    </td>
+                  </tr>
+                  
+                  <tr class="tab_ico1">
+                    <td style=" text-align: center; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; font-size:24px; font-weight:bold; color:#ffffff;letter-spacing: -0.015em;">
+                      <p style="padding-bottom:20px; font-size:50px;margin:0px;">
+                      QSW-3205-5T</p>
+                    </td>
+                  </tr>
+
+                  <!-- Product -->
+                  <tr class="tab_ico1">
+                    <td align="center" valign="top" class="art-img">
+                      <a class="pt-img" href="https://www.qnap.com/en-us/product/QSW-3205-5T" target="_blank">
+                      <img src="https://images.benchmarkemail.com/client136840/image17173815.png" alt="" width="500" height="auto" style="display:block;" title="" border="0"></a></td>
+                  </tr>
+                  
+                  <!-- Icons -->
+                  <tr class="tab_ico1">
+                    <td align="center" valign="top">
+                    <img src="https://images.benchmarkemail.com/client136840/image17173829.png" alt="" width="125" height="auto" style="display:block; padding: 10px 0 0;" title="" border="0"></td>
+                  </tr>
+                  
+                  <tr class="tab_ico1">
+                    <td class="highlights" style="margin:0!important; text-align: left; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC',  'Microsoft JhengHei', sans-serif; font-size:16px; line-height:1.4em; color: #fff; padding-top: 12px;">
+                          <ul style="list-style: none; padding: 5px 70px 0px; margin: 0;">    
+                            <li style="padding-left: 20px; position: relative;">    
+                              <span style="color: #fff; font-size: 14px; position: absolute; left: 0;">✔</span>    
+                              Perfect for Small Teams & Home Setups
+                            </li>
+                            <li style="padding-left: 20px; position: relative;">    
+                              <span style="color: #fff; font-size: 14px; position: absolute; left: 0;">✔</span>    
+                              <strong>Fanless & Silent Operation</strong> – Ideal for noise-free workspaces 
+                            </li>    
+                            <li style="padding-left: 20px; position: relative;">    
+                              <span style="color: #fff; font-size: 14px; position: absolute; left: 0;">✔</span>    
+                              <strong>Auto-Negotiation for 10G/5G/2.5G/1G</strong> – Works with all speeds 
+                            </li>    
+                            <li style="padding-left: 20px; position: relative;">    
+                              <span style="color: #fff; font-size: 14px; position: absolute; left: 0;">✔</span>    
+                              <strong>Plug & Play</strong> – No complex setup required 
+                            </li>
+                            <br>
+                            <p align="center">
+                            <a align="center" href="https://www.qnap.com/en-us/product/QSW-3205-5T" target="_blank" style="background:#fff; text-align: center; text-transform: uppercase; display:block; color:#000; text-decoration:none; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC',  'Microsoft JhengHei', sans-serif; font-size: 18px; font-weight: bold; padding:10px 8px; width:250px; -moz-border-radius:25px; -webkit-border-radius:25px; border-radius:25px; margin: 0 auto;" class="btn-dark">
+                            Learn More</a>
+                            </p>
+                          </ul>
+                        </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>       
+          <!-- End of Section 1 -->
+          
+          <!-- Section 2 -->
+          <tr style="background:#000; background-image:linear-gradient(#cdb3d4,#cdb3d4);">
+            <td align="left" valign="top" style="padding-bottom:20px;">
+              <table border="0" align="center" cellpadding="0" cellspacing="0" width="100%">
+                <tbody>
+                  <tr class="tab_ico1">
+                    <td style="color: #fff; font-weight: normal; text-align: left; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC',  'Microsoft JhengHei', sans-serif; font-size:16px; line-height:1.4em; padding: 0px 70px;">
+                      <!-- Title -->
+                      <p style="border-top: 1px solid #e7e9ee; padding-top: 40px; text-align: center; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; font-size:24px; line-height:1.4em; font-weight:bold; color:#ffffff;letter-spacing: -0.015em;">
+                        High-Speed Networking Made Easy with QSW-3205-5T
+                      </p>
+                      
+                      <!-- Image -->
+                      <p align="center" >
+                        <img src="https://images.benchmarkemail.com/client136840/image17175083.png" alt="" width="600" height="auto" style="border-radius: 15px;" title="" border="0">
+                      </p>
+
+                      </td>
+                  </tr>
+                </tbody>
+              </table>
+          </td>
+          </tr>
+          <!-- End of Section 2 -->
+          
+          <!-- Section 3 -->
+          <!-- Title -->
+          <tr style="background:#4592c1; background-image:linear-gradient(#cdb3d4,#cdb3d4);">
+            <td align="left" valign="top" style="font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC',  'Microsoft JhengHei', sans-serif;color: #ffffff; font-size: 16px; font-weight: bold; letter-spacing: -0.015em;text-align: center;">
+              <table border="0" align="center" cellpadding="0" cellspacing="0" style="padding: 0px 70px 0;">
+              <tbody>
+                <tr class="tab_ico1">
+                  <td style="width: 100px; padding:40px 0 0;">
+                    <hr style="border: none; border-top: 1px solid white; width: 100%;">
+                  </td>
+                  <td style="font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC',  'Microsoft JhengHei', sans-serif;color: #ffffff; font-size: 16px; font-weight: bold; padding:0px 20px;">
+                    <p style="padding-top:40px; text-align:center; font-size:24px; font-weight: bold; margin: 0!important;">
+                      Upgrade your network in minutes!
+                    </p>
+                  </td>
+                  <td style="width: 100px; padding: 40px 0px 0;">
+                    <hr style="border: none; border-top: 1px solid white; width: 100%;">
+                  </td>
+                </tr>
+                <!-- Text -->
+                <tr>
+                  <td style="width: 50px; padding:0px;"></td>
+                  <td style="font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC',  'Microsoft JhengHei', sans-serif;color: #ffffff; font-size: 16px; font-weight: bold; padding:0px;">
+                    <p style="padding:0px; text-align:center; font-size:16px; font-weight: normal; margin: 0!important;">
+                      Need an Adapter? Choose Your 10GbE Connectivity Option!
+                    </p>
+                  </td>
+                  <td style="width: 50px; padding:0px;"></td>
+                </tr>
+              </tbody>
+              </table>
+            </td>
+          </tr>
+          
+          <!-- Columns -->
+          <tr style="background:#4592c1; background-image:linear-gradient(#cdb3d4,#4592c1);">
+            <td align="left" valign="top" style="padding-bottom:20px;">
+              <table border="0" align="center" cellpadding="0" cellspacing="0" width="100%">
+              <tbody>
+              
+              <!-- Options -->
+              <tr>
+                <td class = "options" align="center" valign="top" style="font-family:'Open Sans', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', '微軟正黑體', 'Microsoft JhengHei', sans-serif; font-size:16px; line-height:1.5em; color:#ffffff; font-weight: bold; padding: 10px 70px 30px;">
+                <table  width="49%" bgcolor="#f5f5fa" border="0" align="left" cellpadding="0" cellspacing="0" style="margin-right:1%;border-radius: 15px;">
+                <tbody>
+                  <tr>
+                    <td style="text-align:center; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC',  'Microsoft JhengHei', sans-serif;color: #000; font-size: 16px; font-weight: bold; padding:0 10px;">
+                    <p style="background:#00204f; color: #ffffff; display: inline-block; border-radius: 25px; font-size: 14px; line-height: 1em; padding: 8px 12px;">
+                      Option 1</p>
+                    </p>
+                  </td>
+                  </tr>
+                  <tr>
+                   <td align="center" valign="top" style="font-weight: bold; text-align: center; color:#000; font-size:20px; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; padding:0px; letter-spacing: -0.015em;">
+                    <p style="margin:0!important;">
+                    QNA-UC10G1T<br>
+                    <span style="font-size:16px; font-weight:normal;">USB-C to 10GbE (RJ45)</span>
+                    </p>
+                  </td>
+                  </tr>
+                  <tr>
+                    <td style="font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC',  'Microsoft JhengHei', sans-serif;color: #000; font-size: 16px; font-weight: bold; padding:0 10px;">
+                    <p style="text-align:center; margin:0!important;">
+                      <img src="https://www.qnap.com/i/_attach_file/product/photo/1000_625/785_1732504455_E794A2E59381E59C96_QNA-UC10G1T_TOP.png?v=2" alt="" width="100%" height="auto" title="" border="0">
+                    </p>
+                  </td>
+                  </tr>
+                  <tr>
+                   <td align="center" valign="top" style="font-weight: bold; text-align: center; color:#fff; font-size:20px; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; padding:0px; letter-spacing: -0.015em;">
+                    <p style="margin:0!important; font-weight: normal; font-size: 14px; color: #454545;  padding-bottom:15px;">
+                      Easily Upgrade Any USB-C Device to 10GbE
+                    </p>
+                  </td>
+                  </tr>
+                </tbody>
+            </table>
+                <table  width="49%" bgcolor="#f5f5fa" border="0" align="left" cellpadding="0" cellspacing="0" style="border-radius: 15px;">
+                <tbody>
+                  <tr>
+                    <td style="text-align:center; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC',  'Microsoft JhengHei', sans-serif;color: #000; font-size: 16px; font-weight: bold; padding:0 10px;">
+                    <p style="background:#00204f; color: #ffffff; display: inline-block; border-radius: 25px; font-size: 14px; line-height: 1em; padding: 8px 12px;">
+                      Option 2</p>
+                    </p>
+                  </td>
+                  </tr>
+                  <tr>
+                   <td align="center" valign="top" style="font-weight: bold; text-align: center; color:#000; font-size:20px; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; padding:0px; letter-spacing: -0.015em;">
+                    <p style="margin:0!important;">
+                    QNA-UC10G1SF<br>
+                    <span style="font-size:16px; font-weight:normal;">Thunderbolt to 10GbE (SFP+)</span>
+                    </p>
+                  </td>
+                  </tr>
+                  <tr>
+                   <td style="font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC',  'Microsoft JhengHei', sans-serif;color: #000; font-size: 16px; font-weight: bold; padding:0 10px;">
+                    <p style="text-align:center;margin:0!important;">
+                      <img src="https://www.qnap.com/i/_attach_file/product/photo/1000_625/788_1732503955_E794A2E59381E59C96_QNA-UC10G1SF_TOP.png?v=2" alt="" width="100%" height="auto" title="" border="0">
+                    </p>
+                  </td>
+                  </tr>
+                  <tr>
+                   <td align="center" valign="top" style="font-weight: bold; text-align: center; color:#fff; font-size:20px; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; padding:0px; letter-spacing: -0.015em;">
+                    <p style="margin:0!important; font-weight: normal; font-size: 14px; color: #454545; padding-bottom:15px; ">
+                      Ideal for Fiber-Based High-Speed Networks
+                    </p>
+                  </td>
+                  </tr>
+                </tbody>
+            </table>
+                </td>
+              </tr>
+              
+              <!-- Benefits -->
+              <tr>
+                <td class = "benefits" align="center" valign="top" style="font-family:'Open Sans', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', '微軟正黑體', 'Microsoft JhengHei', sans-serif; font-size:16px; line-height:1.5em; color:#ffffff; font-weight: bold; padding: 10px 70px 40px;">
+                <table  width="24%" border="0" align="left" cellpadding="0" cellspacing="0" style="margin-right:1%;">
+                <tbody>
+                  <tr>
+                    <td style="font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC',  'Microsoft JhengHei', sans-serif;color: #000; font-size: 16px; font-weight: bold; padding: 0 10px;">
+                    <p style="text-align:center; margin:0!important;">
+                      <img src="https://images.benchmarkemail.com/client136840/image17189241.png" alt="" width="100" height="auto" title="" border="0">
+                    </p>
+                  </td>
+                  </tr>
+                  <tr>
+                   <td align="center" valign="top" style="font-weight: bold; text-align: center; color:#fff; font-size:20px; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; padding:0px; letter-spacing: -0.015em;">
+                    <p style="margin:0!important;">
+                    Multi-system compatibility <br>
+                    <span style ="font-weight: normal; font-size: 14px; color: #fff;">
+                    Supports Windows®, macOS®, and Linux® computers (driver installation required).
+                    </span>
+                    </p>
+                  </td>
+                  </tr>
+                </tbody>
+            </table>
+                <table  width="24%" border="0" align="left" cellpadding="0" cellspacing="0" style="margin-right:1%;">
+                <tbody>
+                  <tr>
+                    <td style="font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC',  'Microsoft JhengHei', sans-serif;color: #000; font-size: 16px; font-weight: bold; padding:0 10px;">
+                    <p style="text-align:center; margin:0!important;">
+                      <img src="https://images.benchmarkemail.com/client136840/image17189242.png" alt="" width="100" height="auto" title="" border="0">
+                    </p>
+                  </td>
+                  </tr>
+                  <tr>
+                   <td align="center" valign="top" style="font-weight: bold; text-align: center; color:#fff; font-size:20px; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; padding:0px; letter-spacing: -0.015em;">
+                    <p style="margin:0!important;">
+                    Multi-speed support <br>
+                    <span style ="font-weight: normal; font-size: 14px; color: #fff;">
+                    Supports multi-gigabit speeds (10/5/2.5/1 GbE) for diverse network environments.
+                    </span>
+                    </p>
+                  </td>
+                  </tr>
+                </tbody>
+            </table>
+                <table  width="24%" border="0" align="left" cellpadding="0" cellspacing="0" style="margin-right:1%;">
+                <tbody>
+                  <tr>
+                    <td style="font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC',  'Microsoft JhengHei', sans-serif;color: #000; font-size: 16px; font-weight: bold; padding:0 10px;">
+                    <p style="text-align:center; margin:0!important;">
+                      <img src="https://images.benchmarkemail.com/client136840/image17189243.png" alt="" width="100" height="auto" title="" border="0">
+                    </p>
+                  </td>
+                  </tr>
+                  <tr>
+                   <td align="center" valign="top" style="font-weight: bold; text-align: center; color:#fff; font-size:20px; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; padding:0px; letter-spacing: -0.015em;">
+                    <p style="margin:0!important;">
+                    Low-noise operation <br>
+                    <span style ="font-weight: normal; font-size: 14px; color: #fff;">
+                    Fanless design delivers stable, quiet, hassle-free performance for long-term use.
+                    </span>
+                    </p>
+                  </td>
+                  </tr>
+                </tbody>
+            </table>
+                <table  width="23%" border="0" align="left" cellpadding="0" cellspacing="0" style="margin-right:1%;">
+                <tbody>
+                  <tr>
+                   <td style="font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC',  'Microsoft JhengHei', sans-serif;color: #000; font-size: 16px; font-weight: bold; padding:0 10px;">
+                    <p style="text-align:center;margin:0!important;">
+                      <img src="https://images.benchmarkemail.com/client136840/image17189245.png" alt="" width="100" height="auto" title="" border="0">
+                    </p>
+                  </td>
+                  </tr>
+                  <tr>
+                   <td align="center" valign="top" style="font-weight: bold; text-align: center; color:#fff; font-size:20px; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; padding:0px; letter-spacing: -0.015em;">
+                    <p style="margin:0!important;">
+                    Portable<br>Design <br>
+                    <span style ="font-weight: normal; font-size: 14px; color: #fff;">
+                      Take blazing-fast 10GbE speeds anywhere!
+                    </span>
+                    </p>
+                  </td>
+                  </tr>
+                </tbody>
+                </table>
+                </td>
+              </tr>
+              
+              <!-- Stats Check -->
+              <tr>
+                <td style="color: #fff; font-weight: normal; text-align: left; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC',  'Microsoft JhengHei', sans-serif; font-size:16px;padding: 0px 70px;">
+                <!-- Title -->
+                <p style="border-top: 1px solid #e7e9ee; padding-top: 40px; text-align: center; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; font-size:24px; font-weight:bold; color:#ffffff;letter-spacing: -0.015em;">
+                  Add 10GbE high-speed network connectivity
+                  <br>
+                  <span style="font-size:16px; font-weight:normal;">
+                  Connect your devices to a 10GbE network with the QNA-UC10G1T for faster performance.</span> 
+                </p>
+                
+                <!-- Image -->
+                <p align="center">
+                  <img src="https://images.benchmarkemail.com/client136840/image17174169.png" alt="" width="600" height="auto" title="" border="0">
+                </p>
+
+                </td>
+              </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+
+          <!-- End of Section 3 -->
+          
+          <!-- Section 4 -->
+          <!-- Title -->
+          <tr style="background:#cdb3d4; background-image:linear-gradient(#4592c1,#4592c1);">
+            <td align="left" valign="top" style="font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC',  'Microsoft JhengHei', sans-serif;color: #ffffff; font-size: 16px; font-weight: bold; letter-spacing: -0.015em;text-align: center;">
+              <table border="0" align="center" cellpadding="0" cellspacing="0" style="padding: 0px 70px 0;">
+              <tbody>
+                <tr class="tab_ico1">
+                  <td style="width: 150px; padding:40px 0 0;">
+                    <hr style="border: none; border-top: 1px solid white; width: 100%;">
+                  </td>
+                  <td style="font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC',  'Microsoft JhengHei', sans-serif;color: #ffffff; font-size: 16px; font-weight: bold; padding:0px 20px;">
+                    <p style="padding-top:40px; text-align:center; font-size:24px; font-weight: bold; margin: 0!important;">
+                      Who Benefits from 10GbE?
+                    </p>
+                  </td>
+                  <td style="width: 150px; padding: 40px 0px 0;">
+                    <hr style="border: none; border-top: 1px solid white; width: 100%;">
+                  </td>
+                </tr>
+              </tbody>
+              </table>
+            </td>
+          </tr>
+          
+          <!-- Buyers -->
+          <tr style="background:#cdb3d4; background-image:linear-gradient(#4592c1,#e2beda);">
+            <td align="left" valign="top" style="padding-bottom:40px;">
+              <table border="0" align="center" cellpadding="0" cellspacing="0" width="100%">
+              <tbody>
+              
+              <!-- Benefits -->
+              <tr>
+                <td class = "buyers" align="center" valign="top" style="font-family:'Open Sans', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', '微軟正黑體', 'Microsoft JhengHei', sans-serif; font-size:16px; line-height:1.5em; color:#ffffff; font-weight: bold; padding: 20px 70px 40px;">
+                <table  width="32%" border="0" align="left" cellpadding="10" cellspacing="0" style="margin-right:2%;">
+                <tbody>
+                  <tr>
+                   <td align="center" valign="top" style="font-weight: bold; text-align: center; color:#fff; font-size:18px; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; padding:10px 0px 0; letter-spacing: -0.015em;">
+                    <p>
+                    Content Creators & Video Editors
+                    </p>
+                  </td>
+                  </tr>
+                  <tr>
+                    <td style="font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC',  'Microsoft JhengHei', sans-serif;color: #000; font-size: 16px; font-weight: bold; padding: 0 10px;">
+                    <p style="text-align:center;margin:0!important;">
+                      <img src="https://images.benchmarkemail.com/client136840/image17189246.png" alt="" width="100" height="100" title="" border="0">
+                    </p>
+                  </td>
+                  </tr>
+                  <tr>
+                   <td align="center" valign="top" style="color: #fff; font-size:14px; line-height:1.6em; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; padding: 5px 0; font-weight: normal;">
+                    <ul style="text-align:left; list-style: none; padding: 0px; margin: 0!important;">    
+                      <li style="padding-left: 20px; position: relative;">    
+                        <span style="color: #fff; font-size: 14px; position: absolute; left: 0;">✔</span>    
+                        Edit, stream, and back up 4K/8K media in real-time 
+                      </li>
+                      <li style="padding-left: 20px; position: relative;">    
+                        <span style="color: #fff; font-size: 14px; position: absolute; left: 0;">✔</span>    
+                        Eliminate bottlenecks when transferring large project files 
+                      </li>    
+                      <li style="padding-left: 20px; position: relative;">    
+                        <span style="color: #fff; font-size: 14px; position: absolute; left: 0;">✔</span>    
+                        Work seamlessly with NAS and high-speed workstations 
+                      </li>    
+                    </ul>
+                  </td>
+                  </tr>
+                </tbody>
+            </table>
+                <table  width="32%" border="0" align="left" cellpadding="10" cellspacing="0" style="margin-right:2%;">
+                <tbody>
+                  <tr>
+                   <td align="center" valign="top" style="font-weight: bold; text-align: center; color:#fff; font-size:18px; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; padding:10px 0px 0; letter-spacing: -0.015em;">
+                    <p>
+                    Home Lab Enthusiasts & Tech Pros
+                    </p>
+                  </td>
+                  </tr>
+                  <tr>
+                    <td style="font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC',  'Microsoft JhengHei', sans-serif;color: #000; font-size: 16px; font-weight: bold; padding:0 10px;">
+                    <p style="text-align:center;margin:0!important;">
+                      <img src="https://images.benchmarkemail.com/client136840/image17189248.png" alt="" width="100" height="100" title="" border="0">
+                    </p>
+                  </td>
+                  </tr>
+                  <tr>
+                   <td align="center" valign="top" style="color: #fff; font-size:14px; line-height:1.6em; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; padding: 5px 0; font-weight: normal;">
+                    <ul style="text-align:left; list-style: none; padding: 0px; margin: 0!important;">    
+                      <li style="padding-left: 20px; position: relative;">    
+                        <span style="color: #fff; font-size: 14px; position: absolute; left: 0;">✔</span>    
+                        Optimize virtual machines, storage, and networking setups 
+                      </li>
+                      <li style="padding-left: 20px; position: relative;">    
+                        <span style="color: #fff; font-size: 14px; position: absolute; left: 0;">✔</span>    
+                        Upgrade to 10GbE for smoother workflows and faster access 
+                      </li>    
+                      <li style="padding-left: 20px; position: relative;">    
+                        <span style="color: #fff; font-size: 14px; position: absolute; left: 0;">✔</span>    
+                        Easily integrate with existing NAS and multi-gig devices  
+                      </li>    
+                    </ul>
+                  </td>
+                  </tr>
+                </tbody>
+            </table>
+                <table  width="32%" border="0" align="left" cellpadding="10" cellspacing="0" >
+                <tbody>
+                  <tr>
+                   <td align="center" valign="top" style="font-weight: bold; text-align: center; color:#fff; font-size:18px; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; padding:10px 0px 0; letter-spacing: -0.015em;">
+                    <p>
+                    Small Businesses & Teams
+                    </p>
+                  </td>
+                  </tr>
+                  <tr>
+                    <td style="font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC',  'Microsoft JhengHei', sans-serif;color: #000; font-size: 16px;  padding:0 10px;">
+                      <p style="text-align:center;margin:0!important;">
+                      <img src="https://images.benchmarkemail.com/client136840/image17189250.png" alt="" width="100" height="100" title="" border="0">
+                    </p>
+                  </td>
+                  </tr>
+                  <tr>
+                   <td align="center" valign="top" style="color: #fff; font-size:14px; line-height:1.6em; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; padding: 5px 0; font-weight: normal;">
+                     <ul style="text-align:left; list-style: none; padding: 0px; margin: 0!important;">    
+                      <li style="padding-left: 20px; position: relative;">    
+                        <span style="color: #fff; font-size: 14px; position: absolute; left: 0;">✔</span>    
+                        Accelerate collaboration with high-speed file sharing 
+                      </li>
+                      <li style="padding-left: 20px; position: relative;">    
+                        <span style="color: #fff; font-size: 14px; position: absolute; left: 0;">✔</span>    
+                        Faster backups, data protection, and seamless remote access 
+                      </li>    
+                      <li style="padding-left: 20px; position: relative;">    
+                        <span style="color: #fff; font-size: 14px; position: absolute; left: 0;">✔</span>    
+                        Connect multiple devices with reliable, plug-and-play networking 
+                      </li>    
+                    </ul>
+                  </td>
+                  </tr>
+                </tbody>
+            </table>
+                </td>
+              </tr>
+
+              </tbody>
+            </table>
+            </td>
+          </tr>
+          <!-- End of Section 4 -->
+
+        </table>
+        </td>
+      </tr>
+     
+        
+      <!-- Product Catalog -->
+      <!-- Title -->
+      <tr>
+        <td align="left" bgcolor= "#191919" valign="top" style="font-size:17px; line-height:1.6em; color:#fff;  font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC',  'Microsoft JhengHei', sans-serif; padding:0 0 0px;">
+          <table border="0"  align="center" cellpadding="0" cellspacing="0" width="100%">
+          <tbody>
+            <tr class="tab_ico1">
+              <td style="padding-top:40px; text-align: center; font-weight:bold; font-size:32px; line-height:1em; color:#ffffff; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif;">
+                <p style="padding:0px; font-size:40px; font-weight:700; color:#fff; margin:0!important;">10GbE Network Solutions
+                  </p>
+                </td>
+            </tr>
+          </tbody>
+        </table>
+        </td>
+      </tr>
+      
+      <!-- Products -->
+      <tr>
+      <td align="center" valign="top" bgcolor="#191919">
+        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+  
+        <tr>
+          <td width="30" class="gap-cell"></td>
+          <td align="center" valign="top" style="padding-top:20px; padding-bottom:40px;">
+            <table class="tab_pro" width="32%" border="0" align="left" cellpadding="0" cellspacing="5" style="margin-right:2%;">
+            <tbody>
+              <tr>
+                <td align="center" valign="center" style="text-align: center;font-family: 'Open Sans', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', '微軟正黑體', 'Microsoft JhengHei', sans-serif; font-weight: bold; line-height:1.6em; text-align:center; color:#ffffff; font-size:16px; padding-top: 10px ; padding-bottom: 10px; font-weight:blod;">
+                  <p>QNA-UC10G1T</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="btn-1" valign="bottom" align="center">
+                  <a href="https://www.qnap.com/en-us/product/QNA-UC10G1T" target="_blank" class="pt-img">
+                  <img src="https://www.qnap.com/i/_attach_file/product/photo/1000_625/785_1732504455_E794A2E59381E59C96_QNA-UC10G1T_RIGHT-TOP.png?v=2" alt="" width="200" height="auto" title="" border=""></a></td>
+                </tr>
+              <tr>
+                <td align="center" valign="center" style="text-align: center;font-family: 'Open Sans', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', '微軟正黑體', 'Microsoft JhengHei', sans-serif; font-weight: bold; line-height:1.6em; text-align:center; color:#ffffff; font-size:16px; padding-top: 10px ; padding-bottom: 10px; font-weight:blod;">
+                  <p style="font-weight:normal; text-align: center;font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC',  'Microsoft JhengHei', sans-serif; font-size:15px; line-height:1.6em; color:#FFF;">
+                          Type-C to 10GBASE-T RJ45 Network Adapter
+                          <br>
+                          <br>
+                        <a href="https://www.qnap.com/en-us/product/QNA-UC10G1T" target="_blank" style="background:#2A437A; text-align: center; text-transform: uppercase; display:block; color:#ffffff; text-decoration:none; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC',  'Microsoft JhengHei', sans-serif; font-size: 12px; font-weight: bold; padding:8px 12px; width:100px; -moz-border-radius:25px; -webkit-border-radius:25px; border-radius:25px; margin: 0 auto;" class="btn">
+                        Learn More</a>
+                        </p>    
+                      </td>
+                </tr>
+              </tbody>
+            </table>
+                  
+            <table class="tab_pro" width="32%" border="0" align="left" valign="middle" cellpadding="0" cellspacing="5" style="margin-right:2%;">
+              <tbody>
+                <tr>
+                <td align="center" valign="center" style="text-align: center;font-family: 'Open Sans', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', '微軟正黑體', 'Microsoft JhengHei', sans-serif; font-weight: bold; line-height:1.6em; text-align:center; color:#ffffff; font-size:16px; padding-top: 10px ; padding-bottom: 10px; font-weight:blod;">
+                  <p>QSW-3205-5T</p>
+                </td>
+              </tr>
+                <tr>
+                  <td class="btn-1" valign="bottom" align="center">
+                    <a href="https://www.qnap.com/en-us/product/QSW-3205-5T" target="_blank" class="pt-img">
+                    <img src="https://www.qnap.com/i/_attach_file/product/photo/1000_625/792_1733471899_QSW-3205-5T_Front.png?v=1" alt="" width="200" height="auto" title="" border=""></a></td>
+                  </tr>
+                <tr>
+                  <td align="center" valign="center" style="text-align: center;font-family: 'Open Sans', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', '微軟正黑體', 'Microsoft JhengHei', sans-serif; font-weight: bold; line-height:1.6em; text-align:center; color:#ffffff; font-size:16px; padding-top: 10px ; padding-bottom: 10px; font-weight:blod;">
+                  <p style="font-weight:normal; text-align: center;font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC',  'Microsoft JhengHei', sans-serif; font-size:15px; line-height:1.6em; color:#FFF;">
+                          Cost-effective 5-port 10GbE Unmanaged Switch
+                          <br>
+                          <br>
+                        <a href="https://www.qnap.com/en-us/product/QSW-3205-5T" target="_blank" style="background:#2A437A; text-align: center; text-transform: uppercase; display:block; color:#ffffff; text-decoration:none; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC',  'Microsoft JhengHei', sans-serif; font-size: 12px; font-weight: bold; padding:8px 12px; width:100px; -moz-border-radius:25px; -webkit-border-radius:25px; border-radius:25px; margin: 0 auto;" class="btn">
+                        Learn More</a>
+                        </p>    
+                      </td>
+                  </tr>
+                </tbody>
+              </table>
+                  
+            <table class="tab_pro" width="32%" border="0" align="left" cellpadding="0" cellspacing="5">
+              <tbody>
+                <tr>
+                <td align="center" valign="center" style="text-align: center;font-family: 'Open Sans', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', '微軟正黑體', 'Microsoft JhengHei', sans-serif; font-weight: bold; line-height:1.6em; text-align:center; color:#ffffff; font-size:16px; padding-top: 10px ; padding-bottom: 10px; font-weight:blod;">
+                  <p>QNA-UC10G1SF</p>
+                </td>
+              </tr>
+                <tr>
+                  <td class="btn-1" valign="bottom" align="center">
+                    <a href="https://www.qnap.com/en-us/product/QNA-UC10G1SF" target="_blank" class="pt-img">
+                    <img src="https://www.qnap.com/i/_attach_file/product/photo/1000_625/788_1732503955_E794A2E59381E59C96_QNA-UC10G1SF_RIGHT-TOP.png?v=2" alt="" width="200" height="auto" title="" border=""></a></td>
+                  </tr>
+                
+                <tr>
+                  <td align="center" valign="center" style="text-align: center;font-family: 'Open Sans', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', '微軟正黑體', 'Microsoft JhengHei', sans-serif; font-weight: bold; line-height:1.6em; text-align:center; color:#ffffff; font-size:16px; padding-top: 10px ; padding-bottom: 10px; font-weight:blod;">
+                  <p style="font-weight:normal; text-align: center;font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC',  'Microsoft JhengHei', sans-serif; font-size:15px; line-height:1.6em; color:#FFF;">
+                          Type-C to 10GbE SFP+ Network Adapter
+                          <br>
+                          <br>
+                        <a href="https://www.qnap.com/en-us/product/QNA-UC10G1SF" target="_blank" style="background:#2A437A; text-align: center; text-transform: uppercase; display:block; color:#ffffff; text-decoration:none; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC',  'Microsoft JhengHei', sans-serif; font-size: 12px; font-weight: bold; padding:8px 12px; width:100px; -moz-border-radius:25px; -webkit-border-radius:25px; border-radius:25px; margin: 0 auto;" class="btn">
+                        Learn More</a>
+                        </p>    
+                      </td>
+                  </tr>
+                </tbody>
+              </table></td>
+          <td width="30" class="gap-cell"></td>
+          </tr>
+  	
+       
+      </table>
+      </td>
+    </tr>
+      <!-- End of Product Catalog-->
+        
+      <!-- Sponsorship -->
+  
+      <!-- End Sponsorship -->        
+      
+      <!--Newsletter Footer -->
+      <tr>
+      <td align="center" valign="middle" bgcolor="#000000" style="color:#ffffff; font-size:14px; line-height:1.6em; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; ">
+        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td width="70" class="gap-cell">&nbsp;</td>
+                <td align="center" style="padding:20px 0 0;">
+                  <table class="ft-follow" bgcolor:"#000" width="100%" border="0" align="left" cellpadding="0px" cellspacing="0" style="margin: 0 2%;">
+                    <tbody>
+                      <tr>
+                        <td class="border_mob" align="center" style="font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; font-size:14px; line-height:1.5em; color:#FFFFFF;">
+                          <a href="https://www.qnap.com/en-us" target="_blank" style="color:#fff; text-decoration:none;">www.qnap.com</a>
+                          <a style="color:#fff"> | </a>
+                          <a href="https://store.qnap.com/" target="_blank" style="color:#fff; text-decoration:none;">QNAP Online Store - US</a><br>
+                          
+                          <a href="https://www.qnap.com/en-us" target="_blank">
+                          <img src="https://images.benchmarkemail.com/client136840/image16623689.png" alt="" width="100" height="auto" style="display:block; padding: 10px 0 0;" title="" border="0"></a>
+                          
+                          <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor:"#000">
+                            <tbody>
+                              <tr>
+                                <td align="center" style="padding: 10px;">
+                                  <div class="bt-link" style="font-family:'Open Sans', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', '微軟正黑體', 'Microsoft JhengHei', sans-serif; font-size:8px; color:#ffffff; line-height:1.4em;">
+                                    <a href="https://www.facebook.com/QNAPSys/" style="color:#ffffff; text-decoration:none; " target="_blank"><img src="https://images.benchmarkemail.com/client136840/image16250191.png" alt="QNAP Facebook" width="24" height="24" style="vertical-align:middle;" title="QNAP Facebook"></a>&emsp;
+                                    <a href="https://www.instagram.com/qnap_official/" style="color:#ffffff; text-decoration:none; " target="_blank"><img src="https://images.benchmarkemail.com/client136840/image16989694.png" alt="QNAP Instagram" width="24" height="24" style="vertical-align:middle;" title="QNAP Instagram"></a>&emsp;
+                                    <a href="https://x.com/qnap_nas" style="color:#ffffff; text-decoration:none;" target="_blank"><img src="https://images.benchmarkemail.com/client136840/image16250194.png" alt="QNAP X" width="24" height="24" style="vertical-align:middle;" title="QNAP X"></a>&emsp;
+                                    <a href="https://www.linkedin.com/company/qnap-usa" style="color:#ffffff; text-decoration:none; " target="_blank"><img src="https://images.benchmarkemail.com/client136840/image16250201.png" alt="QNAP LinkedIn" width="24" height="24" style="vertical-align:middle;" title="QNAP LinkedIn"></a>&emsp;
+                                    <a href="https://www.youtube.com/@QNAPCollege/videos" style="color:#ffffff; text-decoration:none; " target="_blank"><img src="https://images.benchmarkemail.com/client136840/image16250193.png" alt="QNAP YouTube" width="24" height="24" style="vertical-align:middle;" title="QNAP YouTube"></a></div></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+                <td width="70" class="gap-cell">&nbsp;</td>
+              </tr>
+            </table>
+            </td>
+          </tr>
+  
+      <!-- Copyright Section -->
+      <tr>
+        <td align="center" valign="middle" bgcolor="#000000" style="color:#ffffff; font-size:13px; line-height:1.6em; font-family:'Open Sans', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', '微軟正黑體', 'Microsoft JhengHei', sans-serif; padding:5px 10px 25px;">Copyright © 2025 QNAP Inc. All rights reserved.</td>
+      </tr>
+      <!-- End of Copyright Section -->
+   
+    </table>  
+  </center>
+</div>
+</body>
+</html>
