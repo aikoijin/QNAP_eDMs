@@ -1,0 +1,1009 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="format-detection" content="address=no">
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="http://www.qnap.com/i/images/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+  <title> Enterprise AI Moves to the Edge with QNAP NAS for High-Reliability Data Storage and Backup | QNAP </title>
+  <style>
+  	
+    /* General Styles */
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700');
+    
+    body, table, td, a {
+        text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+    }
+    table, td {
+        mso-table-rspace: 0pt;
+        mso-table-lspace: 0pt;
+    }
+    img {
+        -ms-interpolation-mode: bicubic;
+    }
+    body, html {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #f3f3f3;
+    }
+    table {
+        border-collapse: collapse !important;
+    }
+    
+    }
+    
+    a{
+      text-decoration: none!important;
+    }
+    
+    .border_mob a{
+      color:#ffffff!important;
+      text-decoration: none!important;
+    }
+    
+    .info-tb-txt{
+      color:#ffffff!important;
+    }
+    
+    img {
+        border: 0;
+        height: auto;
+        line-height: 100%;
+        outline: none;
+        text-decoration: none;
+        vertical-align:bottom;
+    }
+    
+    a.pt-img img {transition:all .3s ease}
+	  a.pt-img:hover img {transform:scale(1.07); }
+    
+    .ft-banner {
+      border-radius: 50px;
+    }
+    
+    /* Button CSS */
+    .btn-grad {transition: all .3s ease !important; }
+  	.btn, .btn-dark, .info-tb img { transition: all .3s ease !important; }
+  	.btn:hover { transform:scale(1.07) !important; background-color:#5a7aba !important;}
+    .btn-dark:hover { transform:scale(1.07) !important; background-color:#64b3f4 !important; }
+  	.btn:hover a { color:#fff !important; }
+    .btn-grad:hover {transform:scale(1.07) !important; background-image: url(
+"https://assets.onecompiler.app/435z3v3e8/437zd3v7y/blue.png")!important;}
+  
+    /* Responsive Styles */
+    /*   Desktop  */
+    @media screen and (max-width: 800px){
+      table {max-width:100%; width:100%;}
+    	.art-img img { max-width: 100% !important; height:auto !important; border:0 !important; display:block !important; padding:0 !important; }
+    	.gap-cell { width: 50px !important; }
+    	
+    	/* Footer CSS */
+    	.border_mob { border-right:0 !important; border-left:0 !important; margin: 0 auto !important; }
+    	.ft-que, .ft-follow  { margin: 0 auto 12px !important; }
+    	.ft-follow .ft-icons { width: 50% !important; margin: 0px auto 10px !important; }
+    	.ft-que .border_mob { padding-bottom: 20px; }
+      
+      .nas_hover table{width:33%!important;}  
+      .nas_hover td{text-align: center!important;padding: 10px 0!important; margin: 0!important}
+      .nas_hover img{ margin: 0 auto!important}
+    }
+    
+    /*   Tablet  */
+    @media screen and (max-width: 640px){
+    	.gap-cell { width:45px !important; }
+    }
+    
+    /*   Mobile  */
+    @media screen and (max-width: 480px){
+      .gap-cell { width:40px !important; }
+    }
+    
+    /*   Small Screens  */
+    @media screen and (max-width: 414px){
+    	.gap-cell { width:30px !important; }
+    }
+  </style>
+  </head>
+  <!-- END OF HEAD -->
+  
+  <!--BODY BEGINS -->
+  <body>
+    <div style="background: #f3f3f3;">
+      <center>
+        <table width="800" border="0" cellpadding="0" cellspacing="0" class="container">
+        <!-- Header CTA -->
+        <!--Logo Banner -->
+        <tr>
+        <td bgcolor="#030303" class="art-img">
+        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+          <tbody><tr>
+            <td width="50%"><a href="https://www.qnap.com/" target="_blank" style="display:block; text-decoration:none;"><img src="https://eu1.qnap.com/ftpedm/2024/en-seagate-exos-jbod/qnap_logo.jpg" alt="" width="400" height="90" style="display:block;" title="" border="0"></a></td>
+            <td width="50%"><a href="https://www.seagate.com/as/en/" target="_blank" style="display:block; text-decoration:none;"><img src="https://eu1.qnap.com/ftpedm/2024/en-seagate-exos-jbod/seagate_logo.jpg" alt="" width="400" height="90" style="display:block;" title="" border="0"></a></td>
+          </tr>
+        </tbody></table>
+        </td>
+              </tr>
+        <!-- End Logo Banner -->
+        
+        <!-- Copy -->
+        <tr bgcolor="#000">
+          <td align="center" valign="top">
+    				<div style="background:#000; background-image:linear-gradient(#000,#000);">
+    					<div class="gmail-blend-screen">
+    						<div class="gmail-blend-difference">
+                  <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                  <tbody>
+                  <!-- Subtitle -->
+                  <tr>
+                  <td width="60" class="gap-cell"></td>
+                  <td><div style="color:#fff;">
+                    <div style="background:#000; mix-blend-mode:screen;">
+                        <div style="text-align: left; background:#000; mix-blend-mode:difference; padding-top:20px; font-size:21px; line-height:1.6em; color:#64b3f4; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif;">
+                            AI Demands More—QNAP NAS Delivers
+                        </div>
+                    </div>
+                  </div></td>
+                  <td width="60" class="gap-cell"></td>
+                </tr>
+                  
+                  <!-- Title -->
+                  <tr>
+                    <td class="gap-cell"></td>
+                    <td><div style="color:#fff;">
+                      <div style="background:#000; mix-blend-mode:screen;">
+                          <div style="text-align: left; background:#000; mix-blend-mode:difference; font-weight:700; font-size:45px; line-height:1.1em; color:#ffffff; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; padding-top: 6px; padding-bottom:12px;">
+                              Train AI Models Faster & Smarter with QNAP NAS
+                          </div>
+                      </div>
+                    </div></td>
+                    <td class="gap-cell"></td>
+                  </tr>
+                  
+                  <!-- Caption -->
+                  <tr>
+                    <td class="gap-cell"></td>
+                    <td><div style="color:#fff;">
+                      <div style="background:#000; mix-blend-mode:screen;">
+                          <div style="text-align: left; background:#000; mix-blend-mode:difference; font-size:16px; line-height:1.5em; color:#ffffff; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif;">
+                              QNAP NAS provides scalable, cost-effective, and high-speed storage, enabling seamless AI model training and effortless handling of large datasets.
+                          </div>
+                      </div>
+                    </div></td>
+                    <td class="gap-cell"></td>
+                  </tr>
+                  
+                  <!-- Button -->
+                  <tr>
+                      <td class="gap-cell"></td>
+                    <td align="left" valign="top" style="padding-top: 20px; padding-bottom:10px;">
+                        <table width="220" border="0" cellspacing="0" cellpadding="0" style="margin:0 0 10px;"> 
+                        <tbody>
+                          <tr>
+                            <td><div class="btn-grad" style="background:#c2e59c url('https://assets.onecompiler.app/435z3v3e8/437zd3v7y/colorbutton.png') no-repeat center; background-size:cover; font-weight:bold; font-size:19px; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; text-align:center; clear:both; padding:10px 12px; width:220px; margin:auto; border-radius:25px; -webkit-border-radius:25px; ">
+                              <a href="https://www.qnap.com/en-us/solution/optimize-ai-with-qnap-storage" target="_blank" style="display:block; color:#fff; text-decoration:none;">
+                                Learn More </a></div></td>
+                          </tr>
+                        </tbody>
+                      </table></td>
+                      <td class="gap-cell"></td>
+                    </tr>
+                    
+                  </tbody>
+                  </table>
+    						</div>
+    					</div>
+    				</div>
+    			</td>
+        </tr>
+        <!-- End of Value Section -->
+        
+        <!-- Banner Section -->
+        <tr>
+          <td align="center" valign="top">
+  		      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+              <!-- Image Banner -->
+              <tr>
+                <td bgcolor="#0c1e2d" align="center" valign="top" class="art-img">
+                  <a href="https://www.qnap.com/en-us/solution/optimize-ai-with-qnap-storage" target="_blank">
+                  <img src="https://images.benchmarkemail.com/client136840/image17108356.jpg" alt="" width="800" height="400" style="display:block;" title="" border="0"></a></td>
+              </tr>
+              <!-- End Image Banner -->
+            </table>
+  	      </td>
+        </tr>
+        <!-- End of Banner Section -->
+      
+        <!-- Intro Paragraph Section -->
+        <tr bgcolor="#000">
+          <td align="center" valign="top">
+    				<div style="border-bottom: #c2e59c 15px solid; background:#000; background-image:linear-gradient(#000,#000);">
+    					<div class="gmail-blend-screen">
+    						<div class="gmail-blend-difference">
+                  <table width="100%" border="0" cellpadding="0" cellspacing="0">
+            
+                  <!--Title -->
+                  <tr>
+                    <td class="gap-cell"></td>
+                    <td><div style="color:#fff;">
+                      <div style="background:#000; mix-blend-mode:screen;">
+                          <div style="text-align: center; background:#000; mix-blend-mode:difference; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; font-size:24px; line-height:1.4em; font-weight:bold; color:#ffffff; text-align:left; letter-spacing: -0.015em; padding-top: 40px;">
+                              AI is Reshaping Enterprise—Are You Ready?
+                          </div>
+                      </div>
+                    </div></td>
+                    <td class="gap-cell"></td>
+                  </tr>
+                  
+                  <!-- Text -->
+                  <tr>
+                    <td width="70" class="gap-cell"></td>
+                    <td><div style="color:#fff;">
+                      <div style="background:#000; mix-blend-mode:screen;">
+                          <div style="text-align: left; background:#000; mix-blend-mode:difference; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC',  'Microsoft JhengHei', sans-serif; font-size:16px; line-height:1.4em; color: #e1e1e1; padding-bottom: 40px; padding-top: 12px;">
+                              According to market research firm Gartner, by 2026, more AI workloads will shift from the cloud to on-premises and edge environments to reduce costs, security risks, and latency bottlenecks. To keep pace, businesses must adopt:
+                          <br>
+                          <ul style="list-style: none; padding: 15px 0; margin: 0;">    
+                            <li style="padding-left: 20px; position: relative;">    
+                              <span style="color: #28a745; font-size: 14px; position: absolute; left: 0;">✔</span>    
+                              <strong>Secure & Cost-Effective AI Training</strong> – On-prem AI ensures data privacy, regulatory compliance, and long-term cost savings over cloud solutions.
+                            </li>
+                            <li style="padding-left: 20px; position: relative;">    
+                              <span style="color: #28a745; font-size: 14px; position: absolute; left: 0;">✔</span>    
+                              <strong>High-Speed Networking</strong> – Ensure seamless AI data transfer with 25/100GbE connectivity.  
+                            </li>    
+                            <li style="padding-left: 20px; position: relative;">    
+                              <span style="color: #28a745; font-size: 14px; position: absolute; left: 0;">✔</span>    
+                              <strong>Scalable AI Storage</strong> – Store, manage, and process massive AI datasets with petabyte-scale NAS and hybrid storage.
+                            </li>    
+                            <li style="padding-left: 20px; position: relative;">    
+                              <span style="color: #28a745; font-size: 14px; position: absolute; left: 0;">✔</span>    
+                              <strong>Reliable Data Protection</strong> – Protect AI assets with WORM storage, RAID, and snapshot technology.
+                            </li>
+                          </ul>
+                          </div>
+                      </div>
+                    </div></td>
+                    <td width="70" class="gap-cell"></td>
+                  </tr>
+
+                  </table>
+    						</div>
+    					</div>
+    				</div>
+    			</td>
+        </tr>
+        <!-- End of Intro Paragraph Section -->
+        
+        <!-- Information Section -->
+        
+        <!-- Copy -->
+        <tr bgcolor="#fff">
+          <td align="center" valign="top" style="padding-top: 40px;">
+                  <table width="100%" border="0" bgcolor= "#fff" cellspacing="0" cellpadding="0" >
+            <tbody>
+              <!-- Infographic -->
+
+              <!--Title -->
+              <tr>
+                  <td class="gap-cell"></td>
+                  <td align="left" bgcolor="#f5f5fa" valign="top" style="border-radius: 15px 15px 0 0; font-family:'Open Sans', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', '微軟正黑體', 'Microsoft JhengHei', sans-serif; font-size:18px; line-height:1.5em; color:#ffffff; font-weight: 400; padding-top: 40px;">
+                    <table border="0" align="center" cellpadding="0" cellspacing="0" >
+                      <tbody>
+                        <tr>
+                          <td align="center" valign="top" style="font-weight:bold; font-size:20px; line-height:1.6em; color:#1d6add; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; padding: 5px 0;">
+                            <span style="background:#c2e59c url('https://assets.onecompiler.app/435z3v3e8/437zd3v7y/colorbutton.png') no-repeat center;
+                            background-size:cover; color: #ffffff; display: inline-block; border-radius: 25px; font-size: 13px; line-height: 1em; padding: 8px 12px;">
+                            AI-Ready Storage</span>
+                          </td>
+                          <td style="font-family:'Open Sans', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', '微軟正黑體', 'Microsoft JhengHei', sans-serif; font-size:22px; line-height:1.5em; color:#000; font-weight: 600; padding-left: 10px; padding: 5px 10px;">
+                          Fast, Scalable, and Future-Proof</td>
+                        </tr>
+                      </tbody>
+                  </table>
+			    </td>
+                  <td class="gap-cell"></td>
+                </tr>              
+              
+              <!-- Icons -->
+              <tr>
+                    <td width="70" class="gap-cell"></td>
+                      <td align="center" bgcolor="#f5f5fa" valign="top" class="nas_hover" style="border-radius: 0 0 15px 15px; padding:15px 25px 20px;">
+                        <table width="24%" border="0" align="left" cellpadding="0" cellspacing="0" style= "margin-right:1%;">
+                        <tbody>
+                          <tr>
+                            <td align="center" valign="top" style="padding-bottom:5px;">
+                              <img src="https://images.benchmarkemail.com/client136840/image17099891.png" alt="" width="60" height="60" title=""></td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div style="color:#fff;">
+                                <div style="background:#000; mix-blend-mode:exclusion;">
+                                  <div style="font-weight: bold; text-align: center; background:#000; mix-blend-mode:difference; color:#fff; font-size:13px; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; padding:8px 10px; letter-spacing: -0.015em; ">
+                                  NVMe<br>Drive Support<br><span style ="font-weight: normal; font-size: 10px; color: #e1e1e1; line-height:0.5em;">Ultra-fast SSD caching for low-latency AI processing</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                        <table width="24%" border="0" align="left" cellpadding="0" cellspacing="0" style= "margin-right:1%;">
+                        <tbody>
+                          <tr>
+                            <td align="center" valign="top" style="padding-bottom:5px;">
+                              <img src="https://images.benchmarkemail.com/client136840/image17099893.png" alt="" width="60" height="60" title=""></td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div style="color:#fff;">
+                                <div style="background:#000; mix-blend-mode:exclusion;">
+                                  <div style="font-weight: bold; text-align: center; background:#000; mix-blend-mode:difference; color:#fff; font-size:13px; line-height:1.4em; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; padding:8px 10px; letter-spacing: -0.015em; ">
+                                    100GbE Networking Support<br><span style ="font-weight: normal; font-size: 10px; color: #e1e1e1; line-height:0.5em;">High-speed connectivity for seamless data transfers</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                        <table width="24%" border="0" align="left" cellpadding="0" cellspacing="0" style= "margin-right:1%;">
+                        <tbody>
+                          <tr>
+                            <td align="center" valign="top" style="padding-bottom:5px;">
+                              <img src="https://images.benchmarkemail.com/client136840/image17099892.png" alt="" width="60" height="60" title=""></td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div style="color:#fff;">
+                                <div style="background:#000; mix-blend-mode:exclusion;">
+                                  <div style="font-weight: bold; text-align: center; background:#000; mix-blend-mode:difference; color:#fff; font-size:13px; line-height:1.4em; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; padding:8px 10px; letter-spacing: -0.015em; ">
+                                    Petabyte-level storage<br><span style ="font-weight: normal; font-size: 10px; color: #e1e1e1; line-height:0.5em;">Expand effortlessly for massive AI datasets</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                        <table width="24%" border="0" align="left" cellpadding="0" cellspacing="0" style= "margin-right:1%;">
+                        <tbody>
+                          <tr>
+                            <td align="center" valign="top" style="padding-bottom:5px;">
+                              <img src="https://images.benchmarkemail.com/client136840/image17099894.png" alt="" width="60" height="60" title=""></td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div style="color:#fff;">
+                                <div style="background:#000; mix-blend-mode:exclusion;">
+                                  <div style="font-weight: bold; text-align: center; background:#000; mix-blend-mode:difference; color:#fff; font-size:13px; line-height:1.4em; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; padding:8px 10px; letter-spacing: -0.015em; ">
+                                    S3 Compatible Object Storage<br><span style ="font-weight: normal; font-size: 10px; color: #e1e1e1; line-height:0.5em;">Flexible and efficient AI data management</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                        
+        				      </td>
+                    <td width="70" class="gap-cell"></td>
+                  </tr>
+
+              <!-- Cost Saving Chart -->
+              <!--Title 3 -->
+              <tr>
+                  <td  class="gap-cell"></td>
+                  <td align="left" valign="top" style="font-family:'Open Sans', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', '微軟正黑體', 'Microsoft JhengHei', sans-serif; font-size:18px; line-height:1.5em; color:#ffffff; font-weight: 400; padding-top: 40px;">
+                    <table border="0" align="center" cellpadding="0" cellspacing="0" >
+                      <tbody>
+                        <tr>
+                          <td align="center" valign="top" style="font-weight:bold; font-size:20px; line-height:1.6em; color:#1d6add; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; padding: 5px 0;">
+                            <span style="background:#c2e59c url('https://assets.onecompiler.app/435z3v3e8/437zd3v7y/colorbutton.png') no-repeat center;
+                            background-size:cover; color: #ffffff; display: inline-block; border-radius: 25px; font-size: 13px; line-height: 1em; padding: 8px 12px;">
+                            Economical</span>
+                          </td>
+                          <td style="font-family:'Open Sans', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', '微軟正黑體', 'Microsoft JhengHei', sans-serif; font-size:22px; line-height:1.5em; color:#000; font-weight: 600; padding-left: 10px; padding: 5px 10px;">
+                          Slash AI Storage Costs with QNAP NAS</td>
+                        </tr>
+                      </tbody>
+                  </table>
+			    </td>
+                  <td class="gap-cell"></td>
+                </tr>
+              
+              <!-- Text -->
+              <tr>
+                <td class="gap-cell"></td>
+                <td align="center" style="font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC',  'Microsoft JhengHei', sans-serif; font-size:16px; line-height:1.5em; color: #454545; padding: 5px 15px 5px 20px;">
+                  Cloud storage fees add up fast. QNAP NAS offers <strong>one-time investment, scalable storage, and no hidden costs</strong>, saving enterprises thousands over time.
+              </tr>
+              
+              <!-- Image -->
+              <tr>
+                <td class="gap-cell"></td>
+                <td valign="top" align="center" class="art-img" style="padding: 5px 20px 20px;">
+                  <img src="https://images.benchmarkemail.com/client136840/image17099779.jpg" alt="" width="100%" height="auto"></td>
+				        <td class="gap-cell"></td>
+              </tr>
+              
+              <!-- All-Flash -->
+              <tr>
+                  <td class="gap-cell"></td>
+                  <td align="left" valign="top" style="font-family:'Open Sans', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', '微軟正黑體', 'Microsoft JhengHei', sans-serif; font-size:18px; line-height:1.5em; color:#ffffff; font-weight: 400; padding-top: 40px;">
+                    <table width="50%" border="0" align="left" cellpadding="0" cellspacing="0" style="margin-left: 5%;">
+                      <tbody>
+                        <tr>
+                          <td align="left" valign="top"style="font-weight:bold; font-size:20px; line-height:1.6em; color:#1d6add; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; padding: 5px 0;">
+                            <span style="background:#c2e59c url('https://assets.onecompiler.app/435z3v3e8/437zd3v7y/colorbutton.png') no-repeat center;
+                            background-size:cover; color: #ffffff; display: inline-block; border-radius: 25px; font-size: 13px; line-height: 1em; padding: 8px 12px;">
+                            25/100 GbE</span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="font-family:'Open Sans', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', '微軟正黑體', 'Microsoft JhengHei', sans-serif; font-size:22px; line-height:1.5em; color:#000; font-weight: 600; padding-bottom: 10px;">
+                          Accelerate AI with Ultra-Fast Data Transfer</td>
+                        </tr>
+                        <tr>
+                          <td style="font-family:'Open Sans', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', '微軟正黑體', 'Microsoft JhengHei', sans-serif; font-size:16px; line-height:1.4em; color:#454545; font-weight: 400; padding-bottom: 10px;">
+                          AI workloads demand lightning-fast data movement. QNAP NAS supports 25/100GbE networking, ensuring seamless AI model training, real-time processing, and high-speed data retrieval without delays. </td>
+                        </tr>
+                      </tbody>
+                  </table>
+				            <table width="250" border="0" bgcolor="#fff" align="right" cellpadding="0" cellspacing="0" style="margin-right: 3%;">
+                      <tbody>
+                        <tr>
+                          <td><img src="https://images.benchmarkemail.com/client136840/image17099933.png" alt="" width="100%" height="auto"></td>
+                        </tr>
+                      </tbody>
+                  </table>
+			    </td>
+                  <td class="gap-cell"></td>
+                </tr>
+                
+              <!-- All-Flash -->
+              <tr>
+                  <td class="gap-cell"></td>
+                  <td align="left" valign="top" style="font-family:'Open Sans', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', '微軟正黑體', 'Microsoft JhengHei', sans-serif; font-size:18px; line-height:1.5em; color:#ffffff; font-weight: 400; padding-top: 40px;">
+        				  <table width="250" border="0" bgcolor="#fff" align="left" cellpadding="0" cellspacing="0" style="margin-left: 5%;">
+                              <tbody>
+                                <tr>
+                                  <td><img src="https://images.benchmarkemail.com/client136840/image17098750.jpg" alt="" width="100%" height="auto"></td>
+                                </tr>
+                              </tbody>
+                          </table>
+        			    <table width="50%" border="0" align="right" cellpadding="0" cellspacing="0" style="margin-right: 3%;" >
+                              <tbody>
+                                <tr>
+                                  <td align="left" valign="top"style="font-weight:bold; font-size:20px; line-height:1.6em; color:#1d6add; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; padding: 5px 0;">
+                                    <span style="background:#c2e59c url('https://assets.onecompiler.app/435z3v3e8/437zd3v7y/colorbutton.png') no-repeat center;
+                                    background-size:cover; color: #ffffff; display: inline-block; border-radius: 25px; font-size: 13px; line-height: 1em; padding: 8px 12px;">
+                                    All-Flash NAS</span>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td style="font-family:'Open Sans', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', '微軟正黑體', 'Microsoft JhengHei', sans-serif; font-size:22px; line-height:1.5em; color:#000; font-weight: 600; padding-bottom: 10px;">
+                                  All-Flash Power. Endless Possibilities.</td>
+                                </tr>
+                                <tr>
+                                  <td style="font-family:'Open Sans', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', '微軟正黑體', 'Microsoft JhengHei', sans-serif; font-size:16px; line-height:1.4em; color:#454545; font-weight: 400; padding-bottom: 10px;">
+                                    QNAP all-flash NAS delivers the advantages of high capacity, million-level IOPS, super low latency – all with a low cost-per-GB. Optimized for mission-critical storage, data centers, and multi-cloud workloads. </td>
+                                </tr>
+                              </tbody>
+                          </table>
+			            </td>
+                  <td class="gap-cell"></td>
+                </tr>              
+              
+              <!-- Petabyte Scale -->
+              <!--Title 2 -->
+              <tr>
+                  <td  class="gap-cell"></td>
+                  <td align="left" valign="top" style="font-family:'Open Sans', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', '微軟正黑體', 'Microsoft JhengHei', sans-serif; font-size:18px; line-height:1.5em; color:#ffffff; font-weight: 400; padding-top: 40px;">
+                    <table border="0" align="center" cellpadding="0" cellspacing="0" >
+                      <tbody>
+                        <tr>
+                          <td align="center" valign="top" style="font-weight:bold; font-size:20px; line-height:1.6em; color:#1d6add; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; padding: 5px 0;">
+                            <span style="background:#c2e59c url('https://assets.onecompiler.app/435z3v3e8/437zd3v7y/colorbutton.png') no-repeat center;
+                            background-size:cover; color: #ffffff; display: inline-block; border-radius: 25px; font-size: 13px; line-height: 1em; padding: 8px 12px;">
+                            Petabyte-Scale</span>
+                          </td>
+                          <td style="font-family:'Open Sans', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', '微軟正黑體', 'Microsoft JhengHei', sans-serif; font-size:22px; line-height:1.5em; color:#000; font-weight: 600; padding-left: 10px; padding: 5px 10px;">
+                          Scalable AI Storage Made Easy</td>
+                        </tr>
+                      </tbody>
+                  </table>
+			    </td>
+                  <td class="gap-cell"></td>
+                </tr>
+              
+              <!-- Text -->
+              <tr>
+                <td class="gap-cell"></td>
+                <td align="center" style="font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC',  'Microsoft JhengHei', sans-serif; font-size:16px; line-height:1.5em; color: #454545; padding: 5px 15px 5px 20px;">
+                  QNAP NAS delivers petabyte-scale expansion, hybrid SSD + HDD solutions, and high-speed networking, providing scalable, efficient, and reliable storage to support your AI infrastructure as data demands grow.</td>
+                <td class="gap-cell"></td>
+              </tr>
+              
+              <!-- Image -->
+              <tr>
+                <td class="gap-cell"></td>
+                <td valign="top" align="center" class="art-img" style="padding: 5px 20px 40px;">
+                  <img src="https://images.benchmarkemail.com/client136840/image17099996.png" alt="" width="100%" height="auto"></td>
+				        <td class="gap-cell"></td>
+              </tr>
+ 
+              <!-- Support -->
+              <tr>
+                  <td class="gap-cell"></td>
+                  <td align="left" valign="top" style="border-top: 1px solid #e7e9ee; font-family:'Open Sans', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', '微軟正黑體', 'Microsoft JhengHei', sans-serif; font-size:18px; line-height:1.5em; color:#ffffff; font-weight: 400; padding-top: 40px; padding-bottom: 80px;">
+                    <table width="50%" border="0" align="left" cellpadding="5" cellspacing="0">
+                      <tbody>
+                        <tr>
+                          <td align="center" valign="top"style="font-weight:bold; font-size:20px; line-height:1.6em; color:#1d6add; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; padding: 15px 10px;">
+                            <span style="background:#c2e59c url('https://assets.onecompiler.app/435z3v3e8/437zd3v7y/colorbutton.png') no-repeat center;
+                            background-size:cover; color: #ffffff; display: inline-block; border-radius: 25px; font-size: 13px; line-height: 1em; padding: 8px 12px;">
+                            Usage 1</span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="text-align: center;  font-family:'Open Sans', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', '微軟正黑體', 'Microsoft JhengHei', sans-serif; font-size:22px; line-height:1.5em; color:#000; font-weight: 600; padding-bottom: 10px;">
+                          Cross-platform storage of large raw data</td>
+                        </tr>
+                        <tr>
+                          <td align="center" valign="top" style="color:#454545; font-size:22px; line-height:1.6em; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; padding: 5px 15px 15px 20px;">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                              <tbody>
+                                <tr>
+                                  <td width="3%" align="right" valign="top" style="color: #c2e59c; padding: 5px 10px 5px 0px;">•</td>
+                                  <td width="97%" style="font-size:16px; line-height:1.6em; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; padding: 5px 0">
+                                    Supports <strong>S3 Compatible Object Storage</strong>, allowing migration of cloud-stored data to NAS</td>
+                                </tr>
+                                <tr>
+                                  <td width="3%" align="right" valign="top" style="color: #c2e59c; padding: 5px 10px 5px 0px;">•</td>
+                                  <td width="97%" style="font-size:16px; line-height:1.6em; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; padding: 5px 0">
+                                    Supports <strong>native  Samba, NFS protocols</strong> for seamless data access and sharing across Windows®, Linux®, macOS®, and other platforms</td>
+                                </tr>
+                                <tr>
+                                  <td width="3%" align="right" valign="top" style="color: #c2e59c; padding: 5px 10px 5px 0px;">•</td>
+                                  <td width="97%" style="font-size:16px; line-height:1.6em; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; padding: 5px 0">
+                                    	Identify and clean datasets efficiently using <a href="https://www.qnap.com/en-us/software/qsirch" target="_blank" style= "color: #64b3f4"><strong>Qsirch</strong></a>, which detects and removes duplicate, incomplete, or inaccurate data to improve AI model training.</td>
+                                </tr>
+                                <tr>
+                                  <td width="3%" align="right" valign="top" style="color: #c2e59c; padding: 5px 10px 5px 0px;">•</td>
+                                  <td width="97%" style="font-size:16px; line-height:1.6em; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; padding: 5px 0">
+                                    		Supports <strong>WORM, powerful data search, RAID data protection, and permission control</strong> to prevent unauthorized data modification, ensuring data integrity and consistency</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                  </table>
+				            <table width="50%" bgcolor="#f5f5fa" border="0" align="right" cellpadding="5" cellspacing="0">
+                      <tbody>
+                        <tr>
+                          <td align="center" valign="top" style="font-weight:bold; font-size:20px; line-height:1.6em; color:#1d6add; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; padding: 15px 10px;">
+                            <span style="background:#c2e59c url('https://assets.onecompiler.app/435z3v3e8/437zd3v7y/colorbutton.png') no-repeat center;
+                            background-size:cover; color: #ffffff; display: inline-block; border-radius: 25px; font-size: 13px; line-height: 1em; padding: 8px 12px;">
+                            Usage 2</span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="text-align: center; font-family:'Open Sans', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', '微軟正黑體', 'Microsoft JhengHei', sans-serif; font-size:22px; line-height:1.5em; color:#454545; font-weight: 600; padding-bottom: 10px;">
+                          Storage/Backup Server for RAG</td>
+                        </tr>
+                        <tr>
+                          <td align="center" valign="top"style="color: #454545; font-size:22px; line-height:1.6em; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; padding: 5px 15px 15px 20px;">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                              <tbody>
+                                <tr>
+                                  <td width="3%" align="right" valign="top" style="color: #c2e59c; padding: 5px 10px 5px 0px;">•</td>
+                                  <td width="97%" style="font-size:16px; line-height:1.6em; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; padding: 5px 0">
+                                    QNAP offers a comprehensive <strong>all-flash NAS lineup</strong>, giving you more options and flexibility to meet your storage needs. </td>
+                                </tr>
+                                <tr>
+                                  <td width="3%" align="right" valign="top" style="color: #c2e59c; padding: 5px 10px 5px 0px;">•</td>
+                                  <td width="97%" style="font-size:16px; line-height:1.6em; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; padding: 5px 0">
+                                    Improve data transfer speeds with <strong>25/100GbE high-speed networking</strong>, reducing latency for large-scale AI data processing. </td>
+                                </tr>
+                                <tr>
+                                  <td width="3%" align="right" valign="top" style="color: #c2e59c; padding: 5px 10px 5px 0px;">•</td>
+                                  <td width="97%" style="font-size:16px; line-height:1.6em; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; padding: 5px 0">
+                                    <strong>Natively supports iSCSI / Samba protocols </strong> to mount NAS storage space for AI computing servers or other storage devices</td>
+                                </tr>
+            					          <tr>
+                                  <td width="3%" align="right" valign="top" style="color: #c2e59c; padding: 5px 10px 5px 0px;">•</td>
+                                  <td width="97%" style="font-size:16px; line-height:1.6em; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; padding: 5px 0">
+                                    Automatically backs up vector data to <strong>QNAP NAS S3 Object Storage Space</strong> on a regular basis, simplifying data backup and restoration</td>
+                                </tr>
+                                <tr>
+                                  <td width="3%" align="right" valign="top" style="color: #c2e59c; padding: 5px 10px 5px 0px;">•</td>
+                                  <td width="97%" style="font-size:16px; line-height:1.6em; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; padding: 5px 0">
+                                    Supports container technologies to accelerate the deployment and management of vector databases</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                  </table>
+			    </td>
+                  <td class="gap-cell"></td>
+                </tr>
+
+            </tbody>
+          </table>
+    			</td>
+        </tr>
+
+        <!-- End of Information Section -->
+        
+        <!-- Product Catalog Table -->
+        <!-- Top Divider -->
+        <tr>
+          <td align="center" valign="top">
+  		      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+              
+              <!--Image Banner -->
+              <tr>
+                <td align="center" valign="top" bgcolor="#000000" class="art-img">
+                  <table width="100%" border="0" align="right" cellpadding="0" cellspacing="0">
+                    <tbody>
+                      <tr>
+                        <td align="center" valign="bottom" class="art-img">
+                        <img src="https://assets.onecompiler.app/435z3v3e8/437zd3v7y/techdiv2.png" alt="" width="100%" height="auto" style="display:block;" title="" border="0"></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              <!--End Image Banner -->
+            </table>
+  	      </td>
+        </tr>
+        
+        <!-- Copy -->
+        <tr bgcolor="#191919">
+          <td align="center" valign="top">
+    				<div style="background:#191919; background-image:linear-gradient(#191919,#191919);">
+    					<div class="gmail-blend-screen">
+    						<div class="gmail-blend-difference">
+                  <table width="100%" border="0" cellpadding="0" cellspacing="0">
+			              <tbody>
+			      
+        			      <!-- Title -->
+          			    <tr>
+                      <td width="70" class="gap-cell"></td>
+                      <td>
+                        <div style="color:#fff;">
+                        <div style="background:#000; mix-blend-mode:screen;">
+                            <div style="text-align: center; background:#000; mix-blend-mode:difference; font-weight:bold; font-size:32px; line-height:1em; color:#ffffff; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif;">
+                                <p>Featured Models</p>
+                            </div>
+                        </div>
+                        </div>
+                      </td>
+                      <td width="70" class="gap-cell"></td>
+                    </tr>
+
+                    <!-- Row 1 -->
+                    <tr class="model">
+              <td class="gap-cell"></td>
+              <td align="center" valign="top" class="nas_hover" style="padding-top:10px; padding-bottom:10px;">
+                <table class="hover_scale" width="32%" border="0" align="left" cellpadding="0" cellspacing="0" style= "margin-right:2%;">
+                <tbody>
+                  <tr>
+                    <td>
+                      <div style="color:#fff;">
+                      <div style="background:#000; mix-blend-mode:screen;">
+                          <div style="text-align: center; background:#000; mix-blend-mode:difference; font-family: 'Open Sans', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', '微軟正黑體', 'Microsoft JhengHei', sans-serif; font-weight: bold; line-height:1.6em; text-align:center; color:#ffffff; font-size:16px; padding-top: 10px ; padding-bottom: 10px; font-weight:blod; ">
+                            TS-h2490FU<br>Up to <span style="font-size: 25px; color:#64b3f4!important;">4.5PB</span> Capacity*
+                          </div>
+                      </div>
+                      </div>
+                    </td>
+                  </tr>
+
+                  <tr>
+                      <td align="center" class="art-img">
+                        <a href="https://www.qnap.com/en-us/product/ts-h2490fu" class="pt-img">
+                          <img src="https://assets.onecompiler.app/435z3v3e8/437zd3v7y/prod1.png" alt="" width="200" height="auto" style="display:block; margin:0 auto;" border="0"></a></td>
+                  </tr>
+                </tbody>
+              </table>
+                <table class="hover_scale" width="32%" border="0" align="left" cellpadding="0" cellspacing="0" style= "margin-right:2%;">
+                  <tbody>
+                  <tr>
+                    <td>
+                      <div style="color:#fff;">
+                      <div style="background:#000; mix-blend-mode:screen;">
+                          <div style="text-align: center; background:#000; mix-blend-mode:difference; font-family: 'Open Sans', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', '微軟正黑體', 'Microsoft JhengHei', sans-serif; font-weight: bold; line-height:1.6em; text-align:center; color:#ffffff; font-size:16px; padding-top: 10px ; padding-bottom: 10px; font-weight:blod; ">
+                            TS-h3087XU-RP<br>Up to <span style="font-size: 25px; color:#64b3f4!important;">1PB</span> Capacity*
+                          </div>
+                      </div>
+                      </div>
+                    </td>
+                  </tr>
+                    <tr>
+                      <td align="center" class="art-img">
+                        <a href="https://www.qnap.com/en-us/product/ts-h3087xu-rp" class="pt-img">
+                          <img src="https://assets.onecompiler.app/435z3v3e8/437zd3v7y/prod3_2.png" alt="" width="200" height="auto" style="display:block; margin:0 auto;" border="0"></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <table class="hover_scale" width="32%" border="0" align="left" cellpadding="0" cellspacing="0" style= "">
+                  <tbody>
+                  <tr>
+                    <td>
+                      <div style="color:#fff;">
+                      <div style="background:#000; mix-blend-mode:screen;">
+                          <div style="text-align: center; background:#000; mix-blend-mode:difference; font-family: 'Open Sans', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', '微軟正黑體', 'Microsoft JhengHei', sans-serif; font-weight: bold; line-height:1.6em; text-align:center; color:#ffffff; font-size:16px; padding-top: 10px ; padding-bottom: 10px; font-weight:blod; ">
+                            TS-h1677AXU<br>Up to <span style="font-size: 25px; color:#64b3f4!important;">2PB</span> Capacity*
+                          </div>
+                      </div>
+                      </div>
+                    </td>
+                  </tr>
+                    <tr>
+                      <td align="center" class="art-img">
+                        <a href="https://www.qnap.com/en-us/product/ts-h1677axu-rp" class="pt-img">
+                          <img src="https://images.benchmarkemail.com/client136840/image17093554.png" alt="" width="200" height="auto" style="display:block; margin:0 auto;" border="0"></a></td>
+                    </tr>
+                    </tbody>
+                </table>
+              </td>
+              <td class="gap-cell"></td>
+            </tr>
+            
+                    <!-- Row 2 -->
+                    <tr class="model">
+                      <td class="gap-cell"></td>
+                      <td align="center" valign="top" class="nas_hover" style="padding-top:10px; padding-bottom:10px;">
+                        <table class="hover_scale" width="32%" border="0" align="left" cellpadding="0" cellspacing="0" style= "margin-right:2%;">
+                        <tbody>
+                          <tr>
+                            <td>
+                              <div style="color:#fff;">
+                              <div style="background:#000; mix-blend-mode:screen;">
+                                  <div style="text-align: center; background:#000; mix-blend-mode:difference; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC',  'Microsoft JhengHei', sans-serif; font-size:15px; line-height:1.6em; color:#FFF;">
+                                    <ul style="text-align: left; padding-left: 50px; ">
+                                      <li>AMD EPYC™ 7302P</li> <!-- CPU -->
+                                      <li>Up to 4TB RAM</li> <!-- RAM -->
+                                      <li>4 x 25GbE SFP28 SmartNIC ports</li> <!-- Port -->
+              						            <li>5 x PCIe Gen4 slots</li> <!-- Slot -->
+                                    </ul>
+                                </div>
+                              </div>
+                              </div>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                        <table class="hover_scale" width="32%" border="0" align="left" cellpadding="0" cellspacing="0" style= "margin-right:2%;">
+                          <tbody>
+                          <tr>
+                            <td>
+                              <div style="color:#fff;">
+                              <div style="background:#000; mix-blend-mode:screen;">
+                                  <div style="text-align: center; background:#000; mix-blend-mode:difference; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC',  'Microsoft JhengHei', sans-serif; font-size:15px; line-height:1.6em; color:#FFF;">
+                                    <ul style="text-align: left; padding-left: 50px; ">
+                                      <li>Intel® Xeon® E-2378</li> <!-- CPU -->
+                                      <li>Up to 128GB RAM</li> <!-- RAM -->
+                                      <li>2 x 10GBASE-T ports</li> <!-- Port -->
+              						            <li>3 x PCIe Gen3 slots</li> <!-- Slot -->
+                                    </ul>   
+                                  </div>
+                              </div>
+                              </div>
+                            </td>
+                          </tr>
+                            </tbody>
+                        </table>
+                        <table class="hover_scale" width="32%" border="0" align="left" cellpadding="0" cellspacing="0">
+                          <tbody>
+                          <tr>
+                            <td>
+                              <div style="color:#fff;">
+                              <div style="background:#000; mix-blend-mode:screen;">
+                                  <div style="text-align: center; background:#000; mix-blend-mode:difference; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC',  'Microsoft JhengHei', sans-serif; font-size:15px; line-height:1.6em; color:#FFF;">
+                                    <ul style="text-align: left; padding-left: 40px; ">
+                                      <li>AMD Ryzen™ 7 7000</li> <!-- CPU -->
+                                      <li>Up to 192GB RAM</li> <!-- RAM -->
+                                      <li>2 x 10GBASE-T ports</li> <!-- Port -->
+              						            <li>3 x PCIe Gen4 slots</li> <!-- Slot -->
+                                    </ul>   
+                                  </div>
+                              </div>
+                              </div>
+                            </td>
+                          </tr>
+                            </tbody>
+                        </table>
+                        </td>
+                      <td class="gap-cell"></td>
+            </tr>
+                    
+                    <!-- Buttons -->
+
+                    <tr class="model">
+                      <td class="gap-cell"></td>
+                      <td align="center" valign="top" class="nas_hover" style="padding-top:0px; padding-bottom:30px;">
+                        <div style="width:32%;margin:auto auto;box-sizing: border-box;display:inline-block;vertical-align: text-bottom;text-align:center;">
+
+                        <a class="btn-grad" href="https://www.qnap.com/en-us/product/ts-h2490fu" target="_blank" style="background:#c2e59c url('https://assets.onecompiler.app/435z3v3e8/437zd3v7y/colorbutton.png') no-repeat center;
+                      background-size:cover; text-align: center; text-transform: uppercase; display:block; color:#ffffff; text-decoration:none; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC',  'Microsoft JhengHei', sans-serif; font-size: 12px; font-weight: bold; padding:10px 8px; width:100px; -moz-border-radius:25px; -webkit-border-radius:25px; border-radius:25px; margin: 0 auto;">
+                                Learn More
+                            </a>
+                      </div>
+                        <div style="width:32%;margin:auto auto;box-sizing: border-box;display:inline-block;vertical-align: text-bottom;text-align:center;">
+
+                          <a class="btn-grad" href="https://www.qnap.com/en-us/product/ts-h3087xu-rp" target="_blank" style="background:#c2e59c url('https://assets.onecompiler.app/435z3v3e8/437zd3v7y/colorbutton.png') no-repeat center;
+                      background-size:cover; text-align: center; text-transform: uppercase; display:block; color:#ffffff; text-decoration:none; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC',  'Microsoft JhengHei', sans-serif; font-size: 12px; font-weight: bold; padding:10px 8px; width:100px; -moz-border-radius:25px; -webkit-border-radius:25px; border-radius:25px; margin: 0 auto;">
+                                  Learn More
+                              </a>
+                        </div>
+                        <div style="width:32%;margin:auto auto;box-sizing: border-box;display:inline-block;vertical-align: text-bottom;text-align:center;">
+
+                          <a class="btn-grad" href="https://www.qnap.com/en-us/product/ts-h1677axu-rp" target="_blank" style="background:#c2e59c url('https://assets.onecompiler.app/435z3v3e8/437zd3v7y/colorbutton.png') no-repeat center;
+                      background-size:cover; text-align: center; text-transform: uppercase; display:block; color:#ffffff; text-decoration:none; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC',  'Microsoft JhengHei', sans-serif; font-size: 12px; font-weight: bold; padding:10px 8px; width:100px; -moz-border-radius:25px; -webkit-border-radius:25px; border-radius:25px; margin: 0 auto;">
+                                  Learn More
+                              </a>
+                        </div>
+                      </td>
+                      <td class="gap-cell"></td>
+                    </tr>
+                    
+                    <!-- Note -->
+          			    <tr>
+                      <td class="gap-cell"></td>
+                      <td>
+                        <div style="color:#fff;">
+                        <div style="background:#000; mix-blend-mode:screen;">
+                            <div style="text-align: center; background:#000; mix-blend-mode:difference; padding: 0 50px 40px; font-family:'Open Sans', Helvetica, Verdana, Tahoma, sans-serif; font-size:13px; line-height:1em; color:#fff;font-weight:400;">
+                                *Scale to Petabyte storage with <a href="https://www.qnap.com/en-us/product/compare/expansion?products=tl-r2400pes-rp,tl-r1200pes-rp,tl-r1600pes-rp&ref=product_overview" target="_blank" style="color:#fff" >QNAP's expansion units</a>.
+                            </div>
+                        </div>
+                        </div>
+                      </td>
+                      <td class="gap-cell"></td>
+                    </tr>
+        			      </tbody>
+                  </table>
+    						</div>
+    						      
+    					</div>
+    				</div>
+    			</td>
+        </tr>
+
+        <!-- End of Product Catalog-->
+        
+        <!-- Seagate Sponsor Banner -->
+        <!-- Bottom Divider -->
+        <tr>
+          <td align="center" valign="top">
+  		      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+              
+              <!--Image Banner -->
+              <tr>
+                <td align="center" valign="top" bgcolor="#000000" class="art-img">
+                  <table width="100%" border="0" align="right" cellpadding="0" cellspacing="0">
+                    <tbody>
+                      <tr>
+                        <td align="center" valign="bottom" class="art-img">
+                        <img src="https://assets.onecompiler.app/435z3v3e8/437zd3v7y/techdiv.png" alt="" width="100%" height="auto" style="display:block;" title="" border="0"></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              <!--End Image Banner -->
+            </table>
+  	      </td>
+        </tr>
+        
+        <!-- Copy -->
+        <tr>
+          <td align="center" valign="top" bgcolor="#ffffff" class="art-img">
+            <table width="100%" border="0" align="right" cellpadding="0" cellspacing="0">
+              <tbody>
+                <tr>
+                  <td align="center" valign="bottom" class="art-img">
+                  <a href="https://www.seagate.com/products/enterprise-drives/exos-x/" target="_blank">
+                    <img src="https://assets.onecompiler.app/435z3v3e8/437zd3v7y/Exos_X24_SocialBanners_LI_1200x628.jpg" alt="Seagate NAS Hard Drives" width="800px" height="auto" style="display:block;" border="0"></a></td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <!-- End of Seagate Sponsor Banner -->
+        
+        <!-- Solution Footer -->
+        <tr bgcolor="#000">
+          <td align="center" valign="top">
+            <div style="background:#000; background-image:linear-gradient(#000,#000);">
+              <div class="gmail-blend-screen">
+                <div class="gmail-blend-difference">
+                  <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                  <tbody>
+                  <!-- Socials -->
+                  <tr>
+                    <td width="70" class="gap-cell"></td>
+                    <td>
+                      <div style="color:#fff;">
+                      <div style="background:#000; mix-blend-mode:screen;">
+                          <div class = "border_mob" style="padding:20px 0 0; text-align: center; background:#000; mix-blend-mode:difference; font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; font-size:14px; line-height:1.5em; color:#FFFFFF;">
+                              <a href="https://www.qnap.com/en-us" target="_blank" style="color:#fff; text-decoration:none;">www.qnap.com</a>
+                              <a style="color:#fff"> | </a>
+                              <a href="https://store.qnap.com/" target="_blank" style="color:#fff; text-decoration:none;">QNAP Online Store - US</a><br>
+                          </div>
+                      </div>
+                      </div>
+                    </td>
+                    <td width="70" class="gap-cell"></td>
+                  </tr>
+                  <!-- Icons -->
+                  <tr>
+                    <td width="70" class="gap-cell"></td>
+                    <td align="center" >
+                      <table class="ft-follow" width="100%" border="0" align="left" cellpadding="0px" cellspacing="0" style="margin: 0 2%;">
+                        <tbody>
+                          <tr>
+                            <td class="border_mob" align="center" style="font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', 'Microsoft JhengHei', sans-serif; font-size:16px; line-height:1.5em; color:#FFFFFF;">
+                              <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                                <tbody>
+                                  <tr>
+                                    <td align="center" style="padding: 10px;">
+                                      <div class="bt-link" style="font-family:'Open Sans', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', '微軟正黑體', 'Microsoft JhengHei', sans-serif; font-size:8px; color:#ffffff; line-height:1.4em;">
+                                        <a href="https://www.facebook.com/QNAPSys/" style="color:#ffffff; text-decoration:none; " target="_blank"><img src="https://images.benchmarkemail.com/client136840/image16250191.png" alt="QNAP Facebook" width="24" height="24" style="vertical-align:middle;" title="QNAP Facebook"></a>&emsp;
+                                        <a href="https://www.instagram.com/qnap_usa/" style="color:#ffffff; text-decoration:none; " target="_blank"><img src="https://images.benchmarkemail.com/client136840/image16989694.png" alt="QNAP Instagram" width="24" height="24" style="vertical-align:middle;" title="QNAP Instagram"></a>&emsp;
+                                        <a href="https://x.com/qnap_nas" style="color:#ffffff; text-decoration:none;" target="_blank"><img src="https://images.benchmarkemail.com/client136840/image16250194.png" alt="QNAP X" width="24" height="24" style="vertical-align:middle;" title="QNAP X"></a>&emsp;
+                                        <a href="https://www.linkedin.com/company/qnap-usa" style="color:#ffffff; text-decoration:none; " target="_blank"><img src="https://images.benchmarkemail.com/client136840/image16250201.png" alt="QNAP LinkedIn" width="24" height="24" style="vertical-align:middle;" title="QNAP LinkedIn"></a>&emsp;
+                                        <a href="https://www.youtube.com/@QNAPCollege/videos" style="color:#ffffff; text-decoration:none; " target="_blank"><img src="https://images.benchmarkemail.com/client136840/image16250193.png" alt="QNAP YouTube" width="24" height="24" style="vertical-align:middle;" title="QNAP YouTube"></a></div></td>
+                                  </tr>
+                                </tbody>
+                              </table></td>
+                            </tr>
+                          </tbody>
+                        </table>
+                    <td width="70" class="gap-cell"></td>
+                  </tr>
+                  <!-- Copyright Section -->
+        			    <tr>
+                    <td width="70" class="gap-cell"></td>
+                    <td>
+                      <div style="color:#fff;">
+                      <div style="background:#000; mix-blend-mode:screen;">
+                          <div style="text-align: center; background:#000; mix-blend-mode:difference; color:#ffffff; font-size:13px; line-height:1.6em; font-family:'Open Sans', Helvetica, Verdana, Tahoma, 'PingFang TC', 'Lantinghei TC', '微軟正黑體', 'Microsoft JhengHei', sans-serif; padding:5px 10px 25px;">
+                              Copyright © 2025 QNAP Inc. All rights reserved.
+                          </div>
+                      </div>
+                      </div>
+                    </td>
+                    <td width="70" class="gap-cell"></td>
+                  </tr>
+                  <!-- End of Copyright Section -->
+                  </tbody>
+                </table>
+                </div>
+              </div>
+            </div>
+          </td>
+        </tr>
+
+        <!-- END FOOTER -->
+        
+        </table>
+      </center>
+      
+  <!-- END EMAIL -->
+  </div>
+  </body>
+</html>
